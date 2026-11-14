@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FF2020</item>
+        <item name="colorPrimaryDark">#09090D</item>
+        <item name="colorAccent">#FF3030</item>
+        <item name="android:statusBarColor">#09090D</item>
+        <item name="android:navigationBarColor">#09090D</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">#09090D</item>
+    </style>
+
+</resources>
