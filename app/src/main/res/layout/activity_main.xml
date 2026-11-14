@@ -1,0 +1,110 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09090D"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DARK BOOSTER X"
+            android:textColor="#FF3030"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ULTIMATE GAMING CONTROL"
+            android:textColor="#AAAAAA"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIVE PERFORMANCE"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="32dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/cpuValue"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="CPU\n--%"
+                android:textColor="#FF4444"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="#241116"/>
+
+            <TextView
+                android:id="@+id/gpuValue"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="GPU\nN/A"
+                android:textColor="#FF7777"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="#241116"/>
+
+            <TextView
+                android:id="@+id/ramValue"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:text="RAM\n--%"
+                android:textColor="#FF4444"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:background="#241116"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GAMING TOOLS"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FPS MONITOR     •     TEMPERATURE\n\nNETWORK MONITOR     •     GAME LIBRARY\n\nULTRA MODE     •     GAMING HISTORY"
+            android:textColor="#FF7777"
+            android:textSize="15sp"
+            android:lineSpacingExtra="12dp"
+            android:padding="18dp"
+            android:background="#171219"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
